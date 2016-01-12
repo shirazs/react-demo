@@ -1,0 +1,91 @@
+
+img.logo 
+  width 123px
+
+h1.smaller {
+    font-size: 36px;
+    line-height: 40px
+}
+  
+table.data
+  width 100%
+  border-collapse collapse
+  border-spacing 0
+  table-layout fixed
+  
+  th
+    padding: 1.754%
+    padding-bottom: 0.5%
+
+  td
+    padding: 1.25% 1.754%
+    border-bottom 1px solid #dcdcdc
+    
+    &.type-tv
+      text-transform uppercase
+    &.type-talk, &.type-broadband
+      text-transform capitalize
+    &.costing-col
+      text-align right
+      
+  tfoot
+      font-size 18px
+      font-weight bold
+      
+  &.itemised
+    thead th
+      text-align center
+    thead th:first-child
+      text-align left
+    thead th:last-child
+      text-align right
+    thead tr
+      background-color #eaeaea
+      border-bottom 2px solid #cecece
+      
+    tr:nth-child(odd)
+      background-color #f4f4f4
+      
+    tbody td + td
+      text-align center
+    
+    tbody tr td:last-child
+      text-align right
+    
+    tfoot
+      font-size 18px
+      font-weight bold
+      td + td
+        text-align right
+    
+  .call-charges,
+  .call-charges-total
+    display block
+    padding-top 9px
+    margin-top 10px
+    border-top 1px solid #dcdcdc
+  
+  .call-charges-total
+    text-align right
+
+.summary
+  margin-top 10px
+  background-color #eaeaea  
+  .section-title
+    float left
+  .amount
+    float right
+    margin-top 32px
+    font-size 36px
+    line-height 28px
+
+.view-container.expanded
+  max-height 500px
+  overflow auto
+  transition max-height .35s ease-out
+  
+.view-container.collapsed
+  max-height 0
+  overflow hidden
+  transition max-height .5s ease-in-out
+  
