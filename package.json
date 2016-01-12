@@ -1,0 +1,42 @@
+{
+  "name": "sky-bill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shiraz Solangi",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "5.8.23",
+    "babelify": "6.4.0",
+    "browser-sync": "2.9.11",
+    "browserify": "11.2.0",
+    "connect-history-api-fallback": "1.1.0",
+    "expect": "^1.13.4",
+    "expect-jsx": "^2.2.2",
+    "gulp": "3.9.0",
+    "gulp-autoprefixer": "3.1.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-notify": "2.2.0",
+    "gulp-rename": "1.2.2",
+    "gulp-stylus": "2.1.0",
+    "gulp-util": "3.0.7",
+    "history": "1.12.5",
+    "install": "0.1.8",
+    "jsdom": "^3.1.2",
+    "mocha": "^2.3.4",
+    "react-addons-test-utils": "^0.14.5",
+    "sinon": "^1.17.2",
+    "vinyl-buffer": "1.0.0",
+    "vinyl-source-stream": "1.1.0",
+    "watchify": "3.4.0"
+  },
+  "dependencies": {
+    "react": "0.14.0",
+    "react-dom": "0.14.0",
+    "react-mixin": "3.0.0",
+    "react-router": "1.0.0-rc3"
+  }
+}
